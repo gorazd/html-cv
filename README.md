@@ -24,3 +24,11 @@ h1 - h6, p, ul, ol, dl, table, a, strong, em
 img
 ## non semantic
 div, span
+
+
+- Only one H1 and MAIN element per page
+- Only one unique ID identifier per page
+- Don't use IDs' for styling (CSS)
+
+- Validate your code
+- Format your code

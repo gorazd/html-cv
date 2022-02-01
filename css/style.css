@@ -3,3 +3,43 @@
   width: 100%;
   height: auto;
 }
+
+.wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+}
+
+/*
+  Using the element selector
+  MORE GENERIC
+  LESS MODULAR
+*/
+nav {
+
+}
+nav a {
+
+}
+/*
+  Using tha class names
+  MORE SPECIFIC
+  MORE MODULAR
+*/
+.navigation {
+
+}
+.navigation-link {
+  /* Styles from the user agent stylesheer */
+  text-decoration: underline;
+  color: -webkit-link;
+
+  /* Overwrite */
+  color: #0065ff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+h2 {
+  /* text-transform: uppercase; */
+}
